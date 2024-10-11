@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site</title>
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/favicon.ico" />
+
+  <!-- Fonts -->
+
+  <!-- Boostrap CSS Files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/swiper@9.4.0/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- CSS Main -->
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock"></i>
+          Segunda a Sexta, das 13h às 17h
+        </div>
+
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone"></i>
+          Ligue agora: (11) 98765 - 4321
+        </div>
+      </div>
+      <!-- fim container -->
+    </div>
+    <!-- fim topbar -->
+
+    <div class="branding d-flex align-items-center">
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="" />
+        </a>
+
+        <!-- Menu -->
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active"> Home </a></li>
+            <li><a href="#sobre"> Sobre </a></li>
+            <li><a href="#services"> Serviços </a></li>
+            <li><a href="#departamentos"> Departamentos </a></li>
+            <li><a href="#medicos"> Médicos </a></li>
+            <li><a href="#contato"> Contato </a></li>
+            <li class="dropdown">
+              <a href="#">
+                <span> Mais Opções </span>
+                <i class="bi bi-chevron-down"> </i>
+              </a>
+              <ul>
+                <li><a href="#"> Opção 1 </a></li>
+                <li><a href="#"> Opção 2 </a></li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span> Submenu </span>
+                    <i class="bi bi-chevron-down"> </i>
+                  </a>
+
+                  <ul>
+                    <li><a href="#"> Submenu 1 </a></li>
+                    <li><a href="#"> Submenu 2 </a></li>
+                  </ul>
+                </li>
+                <!-- fim Submenu -->
+              </ul>
+            </li>
+            <!-- Fim Mais Opções -->
+          </ul>
+
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"> </i>
+        </nav>
+
+        <a href="index.html#consulta" class="cta-btn">
+          Agende uma Consulta
+        </a>
+      </div>
+      <!-- fim container -->
+    </div>
+    <!-- fim branding -->
+  </header>
+  <!-- fim header -->
+
+  <main class="main">
+    <!-- HERO section -->
+    <section id="hero" class="hero section ">
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+        <!-- foto 1 / slide 1 -->
+        <div class="carousel-item active">
+          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="" />
+
+          <div class="container">
+            <h2>Bem-vindo à "Sua Marca"</h2>
+            <p>
+              Na Clínica Vida Plena, cuidamos da sua saúde com carinho e
+              dedicação. Nossa equipe de profissionais está preparada para
+              oferecer o melhor atendimento, com foco no bem-estar e na
+              qualidade de vida de nossos pacientes.
+            </p>
+          </div>
+        </div>
+        <!-- Fim / foto 1 =  slide 1 -->
+
+        <!-- foto 2 / slide 2 -->
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="" />
+
+          <div class="container">
+            <h2>Cuidado e Atenção para Você</h2>
+            <p>
+              Estamos sempre prontos para atender você e sua família com
+              excelência e humanidade. Oferecemos uma ampla gama de serviços
+              médicos para garantir que você tenha acesso ao melhor tratamento
+              possível
+            </p>
+          </div>
+        </div>
+        <!-- Fim / foto 2 =  slide 2 -->
+
+        <!-- foto 3 / slide 3 -->
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="" />
+
+          <div class="container">
+            <h2>Excelência em Saúde</h2>
+            <p>
+              Nossa missão é promover saúde e bem-estar com um atendimento
+              personalizado e de alta qualidade. Confie em nossos
+              especialistas para cuidar de você em todas as fases da vida.
+            </p>
+          </div>
+        </div>
+        <!-- Fim / foto 3 =  slide 3 -->
+
+        <!-- Control Prev -->
+        <a href="#hero-carousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true">
+          </span>
+        </a>
+
+        <!-- Control Next -->
+        <a href="#hero-carousel" class="carousel-control-next" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true">
+          </span>
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+      </div>
+      <!-- hero-carousel -->
+    </section>
+    <!-- Fim Carrossel -->
+
+    <section id="featured-services" class="featured-services section">
+      <div class="container">
+
+        <div class="row gy-4">
+          <!-- Item 1 -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-item" position-relative>
+              <div class="icon">
+                <i class="fas fa-heartbeat icon"></i>
+              </div>
+
+              <h4>
+                <a href="" class="stretched-link"> Cardiologia </a>
+              </h4>
+
+              <p>Cuidados completos para a saúde do seu coração, incluindo exames e tratamentos especializados</p>
+
+            </div>
+
+          </div>
+          <!-- Fim item 1 -->
+
+          <!-- Item 2 -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-pills icon"></i>
+              </div>
+
+              <h4>
+                <a href="" class="stretched-link"> Farmacia </a>
+              </h4>
+
+              <p>Medicamentos e orientações para garantir o uso correto e seguro de seus tratamentos</p>
+
+            </div>
+
+          </div>
+          <!-- Fim item 2 -->
+
+          <!-- Item 3 -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-thermometer icon"></i>
+              </div>
+
+              <h4>
+                <a href="" class="stretched-link"> Clínica Geral </a>
+              </h4>
+
+              <p>Consultas de rotina e acompanhamento apra prevenir e tratar diversas condições de saúde</p>
+
+            </div>
+
+          </div>
+          <!-- Fim item 3 -->
+
+          <!-- Item 4 -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-dna icon"></i>
+              </div>
+
+              <h4>
+                <a href="" class="stretched-link"> Genética </a>
+              </h4>
+
+              <p>Exames genéticos para diagnóstico e prevenção de doenças hereditárias. E testes de paternidade.</p>
+
+            </div>
+
+          </div>
+          <!-- Fim item 4 -->
+
+        </div>
+        <!-- Fim row gy-4 -->
+
+      </div>
+      <!-- Fim container -->
+
+    </section>
+    <!-- Fim Serviços -->
+
+    <!-- atendimento Emergencia -->
+    <section id="call-to-action" class="call-to-action section accent-background">
+
+      <div class="container">
+
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-xl-10"> <!-- COLUNA 10 -->
+
+            <div class="text-center">
+              <h3> Emergência? <br>Precisa de ajuda agora?</h3>
+
+              <p>Se você está enfrentando uma emergência médica ou precisa de atendimento imediato, nossa equipe está
+                pronta para ajudar. Entre em contato conosco e receba o cuidado necessário o mais rápido possível.</p>
+
+              <a class="cta-btn" href="#consulta">Agende uma Consulta</a>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- Fim row -->
+
+      </div>
+      <!-- Fim container -->
+
+    </section>
+    <!-- Fim emergência -->
+
+    <section id="sobre" class="sobre section">
+      <div class="container section-title" data-aos="fade-up">
+
+        <h2> Sobre Nós</h2>
+        <p>Compromisso com sua saúde e bem-estar em todas as fases da vida.</p>
+
+      </div>
+      <!-- Fim section title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+
+            <img src="assets/img/about.jpg" alt="" class="img-fluid">
+
+            <a href="https://youtu.be/VgDgWzBL7s4?feature=shared" class="glightbox pulsating-play-btn">
+
+            </a>
+
+          </div>
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+
+            <h3>Excelência no cuidado à saúde , com dedicação e profissionalismo</h3>
+
+            <p class="fst-italic">
+              Na Clínica VIda Plena, nosso objetivo é promover a
+              saúde e o bem-estar de nossos pacientes, oferecendo
+              atendimento humanizado e tratamentos inovadores.
+            </p>
+
+            <ul>
+              <li>
+                <i class="bi bi-check2-all"></i>
+                <span> Equipe médica qualificada, sempre pronta para atender você.</span>
+              </li>
+
+              <li>
+                <i class="bi bi-check2-all"></i>
+                <span> infraestrutura moderna e confortável para garantir o seu melhor cuidado.</span>
+              </li>
+
+              <li>
+                <i class="bi bi-check2-all"></i>
+                <span> Serviços abrangentes, desde consultas de rotina até tratamentos especializados.</span>
+              </li>
+            </ul>
+
+            <p>Estamos comprometidos em proporcionar a melhor experiência para nosso pacientes, com atendimento
+              personalizado, empatia e respeito. Sua saúde é nossa prioridade!</p>
+
+          </div> <!-- Fim content -->
+
+        </div>
+
+      </div>
+      <!-- Fim container -->
+
+    </section>
+    <!-- Fim sobre -->
+
+    <section id="stats" class="stats section">
+      <!-- sttatus section -->
+      <section id="stats" class="stats-section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4">
+
+            <!-- status 1 -->
+            <div class="col-lg-3 col-md-3">
+
+              <div class="stats-item d-flex align-items-center w100 h-100">
+
+                <i class="fas fa-user-md flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="25" data-pureconter-duration="19"
+                    class="purecounter"> </span>
+                  <p>Médicos</p>
+
+
+                </div>
+
+
+              </div>
+
+            </div>
+            <!-- fim status1 -->
+
+            <!-- status 2 -->
+            <div class="col-lg-3 col-md-3">
+              <div class="stats-item d-flex align-items-center w100 h-100">
+                <i class="fas fa-flask flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="8" data-pureconter-duration="19"
+                    class="purecounter"> </span>
+                  <p>Laboratórios de pesquisa</p>
+
+                </div>
+
+              </div>
+
+            </div>
+            <!-- fim status 2 -->
+
+            <!-- status 3 -->
+            <div class="col-lg-3 col-md-3">
+
+              <div class="stats-item d-flex align-items-center w100 h-100">
+
+                <i class="fas fa-hospital flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="15" data-pureconter-duration="19"
+                    class="purecounter"> </span>
+                  <p>Departamentos</p>
+
+
+                </div>
+
+
+              </div>
+
+            </div>
+            <!-- fim status 3 -->
+
+            <!-- status 4 -->
+            <div class="col-lg-3 col-md-3">
+
+              <div class="stats-item d-flex align-items-center w100 h-100">
+
+                <i class="fas fa-award flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="150" data-pureconter-duration="19"
+                    class="purecounter"> </span>
+                  <p>Prêmios</p>
+
+
+                </div>
+
+
+              </div>
+
+            </div>
+            <!-- fim status 4 -->
+
+
+          </div>
+          <!-- Fim row -->
+
+      </section>
+    </section>
+    <!-- Fim stats -->
+
+    <!-- features section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+          <!-- Esta classe se aplica um flexbox que distrinbui as
+          colunas ao longo da linha, com um espaço igual ao redor
+          delas. -->
+
+          <div class="feature-image col-lg-6" data data-aos="fade-up" data-aos-delay="100">
+
+            <img src="assets/img/features.jpg" alt="">
+          </div>
+          <div class="col-lg-5 d-flex flex-colum justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe neque excepturi eius pariatur nesciunt
+              ea rem quo, eos enim nobis beatae veniam nemo minus. Quis ullam excepturi debitis voluptate aut.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur laboriosam tenetur! Incidunt,
+              perferendis deserunt suscipit rem beatae voluptates accusantium odio qui eaque reprehenderit, laudantium
+              aut. Odit amet dolorem minima.</p>
+
+
+            <!-- inicio box 1 -->
+            <div class=" incon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="3000">
+              <i class="fa-solid fa-hand-holimg-medical flex-shrink-0"></i>
+              <div>
+                <h4>
+                  <a href="" class="stretched-link">
+                    Atendimento personalizado
+                  </a>
+                </h4>
+
+                <p>
+                  Garantirmos um atendimento acolhedor e individualizado, respeitando as necessidades de cada paciente.
+                </p>
+              </div>
+
+            </div><!-- fim do box 1 -->
+
+            <!-- inicio box 2 -->
+            <div class=" incon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="3000">
+              <i class="fa-solid fa-hand-holimg-medical flex-shrink-0"></i>
+              <div>
+                <h4>
+                  <a href="" class="stretched-link">
+                    Equipamentos modernos
+                  </a>
+                </h4>
+
+                <p>
+                  Utilizamos tecnollogia d eponta para oferecer diagnósticos precisos e tratamentos eficazes.</p>
+              </div>
+
+            </div><!-- fim do box 2 -->
+
+            <!-- inicio box 3 -->
+            <div class=" incon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="3000">
+              <i class="fa-solid fa-hand-holimg-medical flex-shrink-0"></i>
+              <div>
+                <h4>
+                  <a href="" class="stretched-link">
+                    qeukfyfu
+                  </a>
+                </h4>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum minima fugit impedit tenetur sequi
+                  commodi enim sint accusamus! Sit debitis minima suscipit quasi asperiores recusandae ducimus magnam
+                  laboriosam ea pariatur?</p>
+              </div>
+
+            </div><!-- fim do box 3 -->
+
+            <!-- inicio box 4 -->
+            <div class=" incon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="3000">
+              <i class="fa-solid fa-hand-holimg-medical flex-shrink-0"></i>
+              <div>
+                <h4>
+                  <a href="" class="stretched-link">
+                    kj,ujg
+                  </a>
+                </h4>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum minima fugit impedit tenetur sequi
+                  commodi enim sint accusamus! Sit debitis minima suscipit quasi asperiores recusandae ducimus magnam
+                  laboriosam ea pariatur?</p>
+              </div>
+
+            </div><!-- fim do box 4 -->
+
+          </div><!-- fim do container -->
+
+        </div><!-- fim do container around -->
+
+      </div> <!-- fim do container -->
+    </section>
+    <!-- Fim características -->
+
+    <section id="services" class="services section">
+
+    </section>
+    <!-- Fim serviços -->
+
+    <section id="consulta" class="consulta section light-background"></section>
+    <!-- Fim consulta -->
+
+    <section id="tabs" class="tabs section"></section>
+    <!-- Fim tabs -->
+
+    <section id="medicos" class="medicos section light-background"></section>
+    <!-- Fim Medicos -->
+
+    <section id="pricing" class="princing section"></section>
+    <!-- Fim preços -->
+
+    <section id="faq" class="faq section light-background"></section>
+    <!-- Fim faq -->
+
+    <section id="contato" class="contato section"></section>
+    <!-- Fim contato -->
+  </main>
+
+  <footer id="footer" class="footer light-background"></footer>
+
+  <!-- Botão voltar ao TOPO = Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Boostrap JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9.4.0/swiper-bundle.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
